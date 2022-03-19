@@ -1,5 +1,4 @@
--- Gui to Lua
--- Version: 3.2
+Created by:ProDupers
 
 -- Instances:
 
@@ -101,24 +100,24 @@ local function ZBGEGB_fake_script() -- TextLabel.Script
 	--text color change script by dizzywig2000
 	wait()
 	while true do 
-	i = 0
-	for n=1,0,-0.05 do 
-	i = i + 0.05
-	script.Parent.TextColor3 = Color3.new(i, 0, n)
-	wait() 
-	end  
-	i = 0
-	for n=1,0,-0.05 do 
-	i = i + 0.05
-	script.Parent.TextColor3 = Color3.new(n, i, 0)
-	wait()
-	end   
-	i = 0
-	for n=1,0,-0.05 do 
-	i = i + 0.05
-	script.Parent.TextColor3 = Color3.new(0, n, i)
-	wait() 
-	end 
+		i = 0
+		for n=1,0,-0.05 do 
+			i = i + 0.05
+			script.Parent.TextColor3 = Color3.new(i, 0, n)
+			wait() 
+		end  
+		i = 0
+		for n=1,0,-0.05 do 
+			i = i + 0.05
+			script.Parent.TextColor3 = Color3.new(n, i, 0)
+			wait()
+		end   
+		i = 0
+		for n=1,0,-0.05 do 
+			i = i + 0.05
+			script.Parent.TextColor3 = Color3.new(0, n, i)
+			wait() 
+		end 
 	end 
 end
 coroutine.wrap(ZBGEGB_fake_script)()
@@ -126,50 +125,50 @@ local function UCGNJ_fake_script() -- TextLabel_3.Changing text
 	local script = Instance.new('Script', TextLabel_3)
 
 	while true do
-	script.Parent.Text = "P"
-	wait(.5)
-	script.Parent.Text = "Pr"
-	wait(.5)
-	script.Parent.Text = "Pre"
-	wait(.5)
-	script.Parent.Text = "Pres"
-	wait(.5)
-	script.Parent.Text = "Press"
-	wait(.5)
-	script.Parent.Text = "Press "
-	wait(.5)
-	script.Parent.Text = "Press M"
-	wait(.5)
-	script.Parent.Text = "Press Me"
-	wait(.5)
-	script.Parent.Text = "Press Me T"
-	wait(.5)
-	script.Parent.Text = "Press Me To"
-	wait(.5)
-	script.Parent.Text = "Press Me To S"
-	wait(.5)
-	script.Parent.Text = "Press Me To St"
-	wait(.5)
-	script.Parent.Text = "Press Me To Sta"
-	wait(.5)
-	script.Parent.Text = "Press Me To Star"
-	wait(.5)
-	script.Parent.Text = "Press Me To Start"
-	wait(.5)
-	script.Parent.Text = "Press Me To Start "
-	wait(.5)
-	script.Parent.Text = "Press Me To Start D"
-	wait(.5)
-	script.Parent.Text = "Press Me To Star Du"
-	wait(.5)
-	script.Parent.Text = "Press Me To Star Dup"
-	wait(.5)
-	script.Parent.Text = "Press Me To Start Dupi"
-	wait(.5)
-	script.Parent.Text = "Press Me To Star Dupin"
-	wait(.5)
-	script.Parent.Text = "Press Me To Start Duping"
-	wait(.5)
+		script.Parent.Text = "P"
+		wait(.5)
+		script.Parent.Text = "Pr"
+		wait(.5)
+		script.Parent.Text = "Pre"
+		wait(.5)
+		script.Parent.Text = "Pres"
+		wait(.5)
+		script.Parent.Text = "Press"
+		wait(.5)
+		script.Parent.Text = "Press "
+		wait(.5)
+		script.Parent.Text = "Press M"
+		wait(.5)
+		script.Parent.Text = "Press Me"
+		wait(.5)
+		script.Parent.Text = "Press Me T"
+		wait(.5)
+		script.Parent.Text = "Press Me To"
+		wait(.5)
+		script.Parent.Text = "Press Me To S"
+		wait(.5)
+		script.Parent.Text = "Press Me To St"
+		wait(.5)
+		script.Parent.Text = "Press Me To Sta"
+		wait(.5)
+		script.Parent.Text = "Press Me To Star"
+		wait(.5)
+		script.Parent.Text = "Press Me To Start"
+		wait(.5)
+		script.Parent.Text = "Press Me To Start "
+		wait(.5)
+		script.Parent.Text = "Press Me To Start D"
+		wait(.5)
+		script.Parent.Text = "Press Me To Star Du"
+		wait(.5)
+		script.Parent.Text = "Press Me To Star Dup"
+		wait(.5)
+		script.Parent.Text = "Press Me To Start Dupi"
+		wait(.5)
+		script.Parent.Text = "Press Me To Star Dupin"
+		wait(.5)
+		script.Parent.Text = "Press Me To Start Duping"
+		wait(.5)
 	end 
 end
 coroutine.wrap(UCGNJ_fake_script)()
