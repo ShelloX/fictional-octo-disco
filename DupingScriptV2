@@ -1,4 +1,5 @@
-Created by:ProDupers
+-- Gui to Lua
+-- Version: 3.2
 
 -- Instances:
 
@@ -77,7 +78,7 @@ TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 255)
 TextLabel_2.Position = UDim2.new(-0.0350909084, 0, 0.884511352, 0)
 TextLabel_2.Size = UDim2.new(0, 376, 0, 25)
 TextLabel_2.Font = Enum.Font.SourceSansBold
-TextLabel_2.Text = "If the dupe is successful, wait 24 hours before opening"
+TextLabel_2.Text = "If the dupe is successful, wait 24 hours before opening\\n"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 0, 0)
 TextLabel_2.TextSize = 15.000
 
@@ -94,89 +95,89 @@ TextLabel_3.TextSize = 25.000
 
 -- Scripts:
 
-local function ZBGEGB_fake_script() -- TextLabel.Script 
-	local script = Instance.new('Script', TextLabel)
-
-	--text color change script by dizzywig2000
-	wait()
-	while true do 
-		i = 0
-		for n=1,0,-0.05 do 
-			i = i + 0.05
-			script.Parent.TextColor3 = Color3.new(i, 0, n)
-			wait() 
-		end  
-		i = 0
-		for n=1,0,-0.05 do 
-			i = i + 0.05
-			script.Parent.TextColor3 = Color3.new(n, i, 0)
-			wait()
-		end   
-		i = 0
-		for n=1,0,-0.05 do 
-			i = i + 0.05
-			script.Parent.TextColor3 = Color3.new(0, n, i)
-			wait() 
-		end 
-	end 
-end
-coroutine.wrap(ZBGEGB_fake_script)()
-local function UCGNJ_fake_script() -- TextLabel_3.Changing text 
-	local script = Instance.new('Script', TextLabel_3)
-
-	while true do
-		script.Parent.Text = "P"
-		wait(.5)
-		script.Parent.Text = "Pr"
-		wait(.5)
-		script.Parent.Text = "Pre"
-		wait(.5)
-		script.Parent.Text = "Pres"
-		wait(.5)
-		script.Parent.Text = "Press"
-		wait(.5)
-		script.Parent.Text = "Press "
-		wait(.5)
-		script.Parent.Text = "Press M"
-		wait(.5)
-		script.Parent.Text = "Press Me"
-		wait(.5)
-		script.Parent.Text = "Press Me T"
-		wait(.5)
-		script.Parent.Text = "Press Me To"
-		wait(.5)
-		script.Parent.Text = "Press Me To S"
-		wait(.5)
-		script.Parent.Text = "Press Me To St"
-		wait(.5)
-		script.Parent.Text = "Press Me To Sta"
-		wait(.5)
-		script.Parent.Text = "Press Me To Star"
-		wait(.5)
-		script.Parent.Text = "Press Me To Start"
-		wait(.5)
-		script.Parent.Text = "Press Me To Start "
-		wait(.5)
-		script.Parent.Text = "Press Me To Start D"
-		wait(.5)
-		script.Parent.Text = "Press Me To Star Du"
-		wait(.5)
-		script.Parent.Text = "Press Me To Star Dup"
-		wait(.5)
-		script.Parent.Text = "Press Me To Start Dupi"
-		wait(.5)
-		script.Parent.Text = "Press Me To Star Dupin"
-		wait(.5)
-		script.Parent.Text = "Press Me To Start Duping"
-		wait(.5)
-	end 
-end
-coroutine.wrap(UCGNJ_fake_script)()
-local function SXSZKQ_fake_script() -- DupeGui.Script 
+local function ELVIX_fake_script() -- DupeGui.Script 
 	local script = Instance.new('Script', DupeGui)
 
 	Start.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/PetSimulatorXDuper/PetSimX/main/Pet%20Simulator%20X%20Dupe"))()
 	end)
 end
-coroutine.wrap(SXSZKQ_fake_script)()
+coroutine.wrap(ELVIX_fake_script)()
+local function BTVZG_fake_script() -- TextLabel.Script 
+	local script = Instance.new('Script', TextLabel)
+
+	--text color change script by dizzywig2000
+	wait()
+	while true do 
+	i = 0
+	for n=1,0,-0.05 do 
+	i = i + 0.05
+	script.Parent.TextColor3 = Color3.new(i, 0, n)
+	wait() 
+	end  
+	i = 0
+	for n=1,0,-0.05 do 
+	i = i + 0.05
+	script.Parent.TextColor3 = Color3.new(n, i, 0)
+	wait()
+	end   
+	i = 0
+	for n=1,0,-0.05 do 
+	i = i + 0.05
+	script.Parent.TextColor3 = Color3.new(0, n, i)
+	wait() 
+	end 
+	end 
+end
+coroutine.wrap(BTVZG_fake_script)()
+local function UGBN_fake_script() -- TextLabel_3.Changing text 
+	local script = Instance.new('Script', TextLabel_3)
+
+	while true do
+	script.Parent.Text = "P"
+	wait(.5)
+	script.Parent.Text = "Pr"
+	wait(.5)
+	script.Parent.Text = "Pre"
+	wait(.5)
+	script.Parent.Text = "Pres"
+	wait(.5)
+	script.Parent.Text = "Press"
+	wait(.5)
+	script.Parent.Text = "Press "
+	wait(.5)
+	script.Parent.Text = "Press M"
+	wait(.5)
+	script.Parent.Text = "Press Me"
+	wait(.5)
+	script.Parent.Text = "Press Me T"
+	wait(.5)
+	script.Parent.Text = "Press Me To"
+	wait(.5)
+	script.Parent.Text = "Press Me To S"
+	wait(.5)
+	script.Parent.Text = "Press Me To St"
+	wait(.5)
+	script.Parent.Text = "Press Me To Sta"
+	wait(.5)
+	script.Parent.Text = "Press Me To Star"
+	wait(.5)
+	script.Parent.Text = "Press Me To Start"
+	wait(.5)
+	script.Parent.Text = "Press Me To Start "
+	wait(.5)
+	script.Parent.Text = "Press Me To Start D"
+	wait(.5)
+	script.Parent.Text = "Press Me To Star Du"
+	wait(.5)
+	script.Parent.Text = "Press Me To Star Dup"
+	wait(.5)
+	script.Parent.Text = "Press Me To Start Dupi"
+	wait(.5)
+	script.Parent.Text = "Press Me To Star Dupin"
+	wait(.5)
+	script.Parent.Text = "Press Me To Star Duping"
+	wait(.5)
+	end 
+end
+coroutine.wrap(UGBN_fake_script)()
