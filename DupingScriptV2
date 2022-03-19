@@ -1,5 +1,5 @@
 -- Gui to Lua
--- Version: 3.2
+-- Version: 2.0
 
 -- Instances:
 
@@ -78,7 +78,7 @@ TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 255)
 TextLabel_2.Position = UDim2.new(-0.0350909084, 0, 0.884511352, 0)
 TextLabel_2.Size = UDim2.new(0, 376, 0, 25)
 TextLabel_2.Font = Enum.Font.SourceSansBold
-TextLabel_2.Text = "If the dupe is successful, wait 24 hours before opening\\n"
+TextLabel_2.Text = "If the dupe is successful, wait 24 hours before opening"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 0, 0)
 TextLabel_2.TextSize = 15.000
 
