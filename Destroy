@@ -1,0 +1,7 @@
+local player = game.Players.LocalPlayer
+script.Parent.MouseButton1Click:Connect(function()
+	print("Destroying Menu!")
+	wait(0.1)
+	player.PlayerGui.Bank:Destroy()
+	player.PlayerGui.Message:Destroy()
+end)
